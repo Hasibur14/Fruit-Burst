@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        .lota-font {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+
 </head>
+
 <body>
-    
+    <header class="lota-font">
+        <div class="container navbar bg-[#F85559] mx-auto rounded-full mt-8 p-4">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-200 rounded-box w-52">
+                       
+                        <li>
+                            <a href="">Home</a>
+                            <a href="">About Us</a>
+                            <a href="">Show</a>
+                            <a href="">All Fruits</a>
+
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="text-white space-x-3 ml-8 hidden lg:flex">
+                    <a href="">Home</a>
+                    <a href="">About Us</a>
+                    <a href="">Show</a>
+                    <a href="">All Fruits</a>
+                </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <img class="h-12 w-10" src="./images/logo.png" alt="">
+                <h3 class="text-white text-3xl font-bold ml-3">Fruit Burst</h3>
+            </div>
+            <div class="ml-auto bg-white rounded-full h-10 w-60 items-center justify-around mr-4 ">
+                <input type="text" placeholder="Search here" class="border-transparent" />
+                <img src="./images/Frame.png" alt="">
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
