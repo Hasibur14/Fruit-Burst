@@ -16,6 +16,7 @@
     <style>
         .lota-font {
             font-family: 'Lato', sans-serif;
+
         }
     </style>
 
@@ -24,7 +25,7 @@
 <body>
     <header class="lota-font">
         <!-- ........navbar section.......... -->
-        <div class="container navbar bg-[#F85559] mx-auto rounded-full mt-8 p-4">
+        <div class="container navbar mx-auto mt-8  px-4 bg-[#F85559] rounded-full ">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -69,51 +70,66 @@
     </header>
 
 
-    <main>
+    <main class="lota-font">
         <!-- ..........banner section......... -->
-        <section class="container mx-auto my-24">
+        <section class="container mx-auto my-24   px-4">
             <div>
                 <div class="carousel w-full">
-                    <!-- ...slide-1... -->
-                    <div id="slide1" style="background-image:url('./images/banner1.png') "
-                        class="carousel-item relative w-full text-white gradient(45deg,rgba(18,18,18,0.5),rgba(0,0,0,0.1))]">
-
-
+                    <div id="slide1"
+                        class="carousel-item relative lg:h-[70vh] rounded-md w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] bg-center bg-cover flex text-center items-center justify-center ">
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide4" class="btn btn-circle">❮</a>
                             <a href="#slide2" class="btn btn-circle">❯</a>
                         </div>
+                        <div class="text-white space-y-52">
+                            <div class="space-y-5 mt-72">
+                                <h2 class="text-5xl font-bold -mt-36">Exotic tastes at your <br> doorstep</h2>
+                                <p class="text-lg font-medium opacity-75">We supply highly quality organic products</p>
+                                <button class="btn btn-error text-white">Shop Now</button>
+                            </div>
+
+                            <div 
+                                class=" flex hidden lg:flex w-[90vh] h-32 bg-slate-200 shadow-xl rounded-md justify-around">
+                                <img src="./images/fruit1.png" alt="">
+                                <img src="./images/fruit2.png" alt="">
+                                <img src="./images/fruit3.png" alt="">
+                                <img src="./images/fruit4.png" alt="">
+                                <img src="./images/fruit5.png" alt="">
+
+                            </div>
+                        </div>
+
+
                     </div>
-                    <div id="slide2" class="carousel-item relative w-full">
-                        <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-                            class="w-full" />
+                    <div id="slide2"
+                        class="carousel-item relative lg:h-[65vh] rounded-md w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner2.png)] bg-center bg-cover flex text-center items-center justify-center ">
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide1" class="btn btn-circle">❮</a>
                             <a href="#slide3" class="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-                            class="w-full" />
+                    <div id="slide3"
+                        class="carousel-item relative lg:h-[65vh] rounded-md w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner3.png)] bg-center bg-cover flex text-center items-center justify-center ">
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide2" class="btn btn-circle">❮</a>
                             <a href="#slide4" class="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide4" class="carousel-item relative w-full">
-                        <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-                            class="w-full" />
+                    <div id="slide4"
+                        class="carousel-item relative lg:h-[65vh] rounded-md w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner4.png)] bg-center bg-cover flex text-center items-center justify-center ">
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide3" class="btn btn-circle">❮</a>
                             <a href="#slide1" class="btn btn-circle">❯</a>
                         </div>
                     </div>
                 </div>
+
+            </div>
             </div>
         </section>
 
         <!-- .....Deal of the day section..... -->
-        <section class="container mx-auto my-24">
+        <section class="container  mx-auto my-24   px-4">
             <div>
                 <div class="flex flex-col lg:flex-row justify-between">
                     <div class="text-[#121212]">
@@ -231,12 +247,13 @@
 
         <!-- ............Meet the team section........ -->
         <section>
-            <div class="container  lg:px-24 px-4 mx-auto text-white">
+            <div class="container  px-4 mx-auto text-white">
                 <div
                     class=" lg:h-[65vh] rounded-md w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/banner1.png)] bg-center bg-cover flex text-center items-center justify-center ">
                     <div>
                         <h3 class="text-5xl font-extrabold">Meet the Team Section</h3>
-                        <p class="w-2/3 text-center mx-auto mt-5 opacity-80">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <p class="w-2/3 text-center mx-auto mt-5 opacity-80">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit.
                             Quod nobis quas, dolorem aliquam quidem vitae quasi, fugiat laborum, accusantium veniam
                             assumenda possimus dicta facilis dolor.</p>
 
@@ -278,8 +295,8 @@
 
                                 </div>
                             </div>
-                             <!-- member-4 -->
-                             <div class="w-48 h-auto p-5 space-y-3">
+                            <!-- member-4 -->
+                            <div class="w-48 h-auto p-5 space-y-3">
                                 <img src="./images/member4.png" alt="">
                                 <h3 class="text-xl font-bold">Maria</h3>
                                 <p>Fruits Expert</p>
@@ -287,7 +304,7 @@
                                     <span><img src="./images/facebook.png" alt=""></span>
                                     <span><img src="./images/twitter.png" alt=""></span>
                                     <span><img src="./images/linkedin.png" alt=""></span>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -307,7 +324,7 @@
         </section>
 
     </main>
-    <!-- <footer class="footer footer-center p-10 bg-[#121212] mt-16 text-base-content rounded">
+    <footer class="footer footer-center p-10 bg-[#121212] mt-16 text-base-content rounded">
         <div class="flex">
             <img class="h-12 w-10" src="./images/logo.png" alt="">
             <h3 class="text-white text-2xl font-medium ml-2">Fruit Burst</h3>
@@ -333,7 +350,7 @@
         <aside>
             <p class="text-white opacity-70">Copyright © 2024 - All right reserved by HASIB</p>
         </aside>
-    </footer>> -->
+    </footer>>
 </body>
 
 </html>
